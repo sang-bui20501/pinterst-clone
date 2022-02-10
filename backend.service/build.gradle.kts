@@ -17,7 +17,7 @@ repositories {
 }
 
 application {
-	mainClass.set("backend.service.Application")
+	mainClass.set("backend.service.ApplicationKt")
 }
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
